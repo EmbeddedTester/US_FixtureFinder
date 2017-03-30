@@ -1,13 +1,251 @@
+/*!
+ * Generated with CSS Flag Sprite generator (https://www.flag-sprites.com/)
+ */
+
 .flag {
+    display: inline-block;
     width: 17px;
     height: 11px;
     background: url(../html/resources/flags.png) no-repeat;
-    display: inline-block;
     margin-right: 10px;
 }
+
+.flag.flag-hu {
+    background-position: 0 -33px;
+}
+
+.flag.flag-sm {
+    background-position: -64px -66px;
+}
+
+.flag.flag-pt {
+    background-position: -48px -55px;
+}
+
+.flag.flag-je {
+    background-position: -96px -33px;
+}
+
+.flag.flag-at {
+    background-position: -32px 0;
+}
+
+.flag.flag-se {
+    background-position: 0 -66px;
+}
+
+.flag.flag-md {
+    background-position: -64px -44px;
+}
+
+.flag.flag-gi {
+    background-position: -80px -22px;
+}
+
+.flag.flag-no {
+    background-position: -16px -55px;
+}
+
+.flag.flag-il {
+    background-position: -32px -33px;
+}
+
+.flag.flag-lu {
+    background-position: -16px -44px;
+}
+
+.flag.flag-ch {
+    background-position: -16px -11px;
+}
+
+.flag.flag-ba {
+    background-position: -64px 0;
+}
+
+.flag.flag-li {
+    background-position: -112px -33px;
+}
+
+.flag.flag-sk {
+    background-position: -48px -66px;
+}
+
+.flag.flag-de {
+    background-position: -48px -11px;
+}
+
+.flag.flag-gb {
+    background-position: -48px -22px;
+}
+
+.flag.flag-ua {
+    background-position: -80px -66px;
+}
+
+.flag.flag-mc {
+    background-position: -48px -44px;
+}
+
+.flag.flag-xk {
+    background-position: -16px -77px;
+}
+
+.flag.flag-si {
+    background-position: -16px -66px;
+}
+
+.flag.flag-pl {
+    background-position: -32px -55px;
+}
+
+.flag.flag-sj {
+    background-position: -32px -66px;
+}
+
+.flag.flag-al {
+    background-position: -16px 0;
+}
+
+.flag.flag-gg {
+    background-position: -64px -22px;
+}
+
+.flag.flag-wales {
+    background-position: 0 -77px;
+}
+
+.flag.flag-ru {
+    background-position: -96px -55px;
+}
+
+.flag.flag-fr {
+    background-position: -32px -22px;
+}
+
+.flag.flag-us {
+    background-position: -96px -66px;
+}
+
+.flag.flag-be {
+    background-position: -80px 0;
+}
+
+.flag.flag-hr {
+    background-position: -112px -22px;
+}
+
+.flag.flag-fi {
+    background-position: 0 -22px;
+}
+
+.flag.flag-by {
+    background-position: -112px 0;
+}
+
+.flag.flag-ie {
+    background-position: -16px -33px;
+}
+
+.flag.flag-rs {
+    background-position: -80px -55px;
+}
+
+.flag.flag-mt {
+    background-position: -112px -44px;
+}
+
+.flag.flag-ca {
+    background-position: 0 -11px;
+}
+
+.flag.flag-ro {
+    background-position: -64px -55px;
+}
+
+.flag.flag-me {
+    background-position: -80px -44px;
+}
+
+.flag.flag-lt {
+    background-position: 0 -44px;
+}
+
+.flag.flag-eu {
+    background-position: -112px -11px;
+}
+
+.flag.flag-va {
+    background-position: -112px -66px;
+}
+
+.flag.flag-gr {
+    background-position: -96px -22px;
+}
+
+.flag.flag-mk {
+    background-position: -96px -44px;
+}
+
+.flag.flag-ax {
+    background-position: -48px 0;
+}
+
+.flag.flag-dk {
+    background-position: -64px -11px;
+}
+
+.flag.flag-cz {
+    background-position: -32px -11px;
+}
+
+.flag.flag-ad {
+    background-position: 0 0;
+}
+
+.flag.flag-nl {
+    background-position: 0 -55px;
+}
+
+.flag.flag-es {
+    background-position: -96px -11px;
+}
+
+.flag.flag-scotland {
+    background-position: -112px -55px;
+}
+
+.flag.flag-lv {
+    background-position: -32px -44px;
+}
+
+.flag.flag-bg {
+    background-position: -96px 0;
+}
+
+.flag.flag-it {
+    background-position: -80px -33px;
+}
+
+.flag.flag-im {
+    background-position: -48px -33px;
+}
+
+.flag.flag-fo {
+    background-position: -16px -22px;
+}
+
+.flag.flag-is {
+    background-position: -64px -33px;
+}
+
+.flag.flag-ee {
+    background-position: -80px -11px;
+}
+
+
 .flag.flag-ad {background-position: -16px 0}
 .flag.flag-al {background-position: -32px 0}
-.flag.flag-Austria {background-position: -48px 0}
+.flag.flag-Austria {background-position: -32px 0}
 .flag.flag-ba {background-position: -64px 0}
 .flag.flag-Belgium {background-position: -80px 0}
 .flag.flag-bg {background-position: -96px 0}
@@ -18,14 +256,14 @@
 .flag.flag-Germany {background-position: -48px -11px}
 .flag.flag-dk {background-position: -64px -11px}
 .flag.flag-ee {background-position: -80px -11px}
-.flag.flag-England {background-position: -96px -11px}
-.flag.flag-Spain {background-position: -112px -11px}
+.flag.flag-England {background-position: -48px -22px}
+.flag.flag-Spain {background-position: -96px -11px}
 .flag.flag-EURO {background-position: 0 -22px}
-.flag.flag-Champions {background-position: -64px -11px}
+.flag.flag-Champions {background-position: -112px -11px}
 .flag.flag-Europa {background-position: -64px -11px}
 .flag.flag-fi {background-position: -16px -22px}
 .flag.flag-fo {background-position: -32px -22px}
-.flag.flag-France {background-position: -48px -22px}
+.flag.flag-France {background-position: -32px -22px}
 .flag.flag-gb {background-position: -64px -22px}
 .flag.flag-gi {background-position: -80px -22px}
 .flag.flag-Greece {background-position: -96px -22px}
@@ -33,7 +271,7 @@
 .flag.flag-hu {background-position: 0 -33px}
 .flag.flag-ie {background-position: -16px -33px}
 .flag.flag-is {background-position: -32px -33px}
-.flag.flag-Italy {background-position: -48px -33px}
+.flag.flag-Italy {background-position: -80px -33px}
 .flag.flag-li {background-position: -64px -33px}
 .flag.flag-lt {background-position: -80px -33px}
 .flag.flag-lu {background-position: -96px -33px}
@@ -44,21 +282,22 @@
 .flag.flag-mk {background-position: -48px -44px}
 .flag.flag-mt {background-position: -64px -44px}
 .flag.flag-mx {background-position: -80px -44px}
-.flag.flag-Netherlands {background-position: -96px -44px}
+.flag.flag-Netherlands {background-position: 0px -55px}
 .flag.flag-Norway {background-position: -112px -44px}
-.flag.flag-Poland {background-position: 0 -55px}
-.flag.flag-Portugal {background-position: -16px -55px}
+.flag.flag-Poland {background-position: -16px -55px}
+.flag.flag-Portugal {background-position: -32px -55px}
 .flag.flag-ro {background-position: -32px -55px}
 .flag.flag-rs {background-position: -48px -55px}
-.flag.flag-Russia {background-position: -64px -55px}
-.flag.flag-Scotland {background-position: -80px -55px}
-.flag.flag-Sweden {background-position: -96px -55px}
+.flag.flag-Russia {background-position: -96px -55px}
+.flag.flag-Scotland {background-position: -112px -55px}
+.flag.flag-Sweden {background-position: 0px -66px}
 .flag.flag-si {background-position: -112px -55px}
 .flag.flag-sk {background-position: 0 -66px}
 .flag.flag-sm {background-position: -16px -66px}
 .flag.flag-ua {background-position: -32px -66px}
-.flag.flag-USA {background-position: -48px -66px}
+.flag.flag-USA {background-position: -96px -66px}
 .flag.flag-va {background-position: -64px -66px}
-.flag.flag-Wales {background-position: -80px -66px}
+.flag.flag-Wales {background-position: -0px -77px}
 .flag.flag-xk {background-position: -96px -66px}
+.flag.flag-Israel {background-position: -32px -33px;}
 
