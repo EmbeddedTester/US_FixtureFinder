@@ -30,12 +30,11 @@ describe("A Localizer", function() {
       expect($('.fixtures .noOf').text()).toEqual("5 Spiele");
     });
 
-    it("will translate the all country names, inc 'All Countries' to German", function() {
+    it("will translate all country names, inc 'All Countries' to German", function() {
        expect($('.all-txt')[0].innerHTML).toEqual('Alle Staaten');
        expect($('.all-txt')[1].innerHTML).toEqual('Alle Staaten');
        expect($('.en-txt').text()).toEqual('England');
-       expect($('.de-txt').text()).toEqual('Deutschland');
-       expect($('.sv-txt').text()).toEqual('Schweden');
+       expect($('.de-txt').text()).toEqual('Deutschland');       
     });
 
     it("will translate the word 'Team' to German", function() {
@@ -77,12 +76,11 @@ describe("#localizePage to English", function() {
       expect($('.fixtures .noOf').text()).toEqual("5 fixtures");
     });
 
-    it("will translate the all country names, inc 'All Countries' to English", function() {
+    it("will translate all country names, inc 'All Countries' to English", function() {
        expect($('.all-txt')[0].innerHTML).toEqual('All Countries');
        expect($('.all-txt')[1].innerHTML).toEqual('All Countries');
        expect($('.en-txt').text()).toEqual('England');
        expect($('.de-txt').text()).toEqual('Germany');
-       expect($('.sv-txt').text()).toEqual('Sweden');
     });
 
     it("will translate the word 'Team' to English", function() {
