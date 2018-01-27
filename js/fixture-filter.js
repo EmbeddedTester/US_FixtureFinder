@@ -1,26 +1,25 @@
-String.prototype.contains = function(it) { return this.indexOf(it) != -1; };
-
-FixtureFinder.FixtureFilter = function(country, team){
-    var allCountries = 'all';
-    if(!country) country = allCountries;
-    if(!team) team = '';
-
-    var byCountry = function(fixture){
-        return fixture.country === country || country === allCountries;
-    };
-
-    team = team.trim();
-    var byTeam = function(fixture){
-        return fixture.homeTeam.toLowerCase().contains(team)
-               || fixture.awayTeam.contains(team);
-    };
-
-    var noCompetition = function(fixture){
-        return !fixture.competition.toLowerCase().contains('no_competition') &&
-               !fixture.competition.toLowerCase().contains('no competition') 
-    };
-
-    return function(fixtures) {
-       return fixtures.filter(byCountry).filter(byTeam).filter(noCompetition);
+FixtureFinder.filterTeams = function(filter){
+    return function(fixtures){
+        filter = filter || ""
+        var forEachFixture = function(fixture){
+            return fixture.homeTeam.toLowerCase().contains(filter.toLowerCase()) 
+            || fixture.awayTeam.toLowerCase().contains(filter.toLowerCase());
+        };
+        return fixtures.filter(forEachFixture);
     }
-};
+}
+
+FixtureFinder.filterCountries = function(filter){
+    return function(fixtures){
+        filter = filter || 'All'
+        var forEachFixture = function(fixture){
+            return fixture.country === filter
+        };
+        return filter === 'All' ? fixtures : fixtures.filter(forEachFixture);
+    }
+}
+
+
+
+
+
