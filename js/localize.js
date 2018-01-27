@@ -5,10 +5,10 @@ var localizer = function (){
             case "german":
                 return {
                     firstNavBtn: "Vorige Woche",
-                    secondNavBtn: "Voheriger Tag",
+                    secondNavBtn: "Vorheriger Tag",
                     thirdNavBtn: "Heute",
                     fourthNavBtn: "Nächster Tag",
-                    fifthNavBtn: "Nächste Woche",
+                    fifthNavBtn: "Naechste Woche",
                     competition: "Wettbewerb",
                     kickOffDate: "Anstoß",
                     home: "Heim",
@@ -19,8 +19,7 @@ var localizer = function (){
                     all: "Alle",
                     countries: "Staaten",
                     england: "England",
-                    germany: "Deutschland",
-                    estonia: "Estland",
+                    germany: "Deutschland",                    
                     filter: "Filtern"
             }
                        
@@ -43,7 +42,6 @@ var localizer = function (){
                     countries: "Riigid",
                     england: "Inglismaa",
                     germany: "Saksamaa",
-                    estonia: "Eesti",
                     filter: "Filter"
             }
 
@@ -56,10 +54,10 @@ var localizer = function (){
                     thirdNavBtn: "Today",
                     fourthNavBtn: "Next Day",
                     fifthNavBtn: "Next Week",
-                    competition: "Competition",
+                    competition: "Competilion",
                     kickOffDate: "Kick Off",
                     home: "Home",
-                    score: "Score",
+                    score: "score",
                     away: "Home",
                     team: "Team",
                     fixtures: "fixtures",
@@ -67,7 +65,6 @@ var localizer = function (){
                     countries: "Counties",
                     england: "England",
                     germany: "Germany",
-                    estonia: "Estonia",
                     filter: "Filter"
             }
         }

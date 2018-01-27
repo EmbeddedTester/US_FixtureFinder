@@ -16,7 +16,12 @@ var FixtureParser = function() {
 
     var preprocessFixtures = function(fixtures) {
         $.each(fixtures, function(index, fixture) {
-            
+            if (fixture.country === 'Scotland') {
+                if (fixture.kickOff.status === 'FULL_TIME') {
+                    fixture.score.homeGoals = 0;
+                    fixture.score.awayGoals = 0;
+                }
+            }
         });
         return fixtures;
     };
